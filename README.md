@@ -1,10 +1,11 @@
-# diet_scale
-sass
-//계산식) 적정체중 = (본인신장-100)*0.9
-//변수명 예)userHeight, userWeight, normal_w
-//prompt 현재키, 몸무게 입력받기
-//dom 객체 변수 생성하기
+# javascript
+<h1>다이어트 체중계</h1>
+<p> //계산식) 적정체중 = (본인신장-100)*0.9 </p>
+<p> //변수명 예)userHeight, userWeight, normal_w </p>
+<p> //prompt 현재키, 몸무게 입력받기 </p>
+<p> //dom 객체 변수 생성하기 </p>
 ---
+
 `const height = document.getElementsByClassName('height')`
 
 `const weight = document.getElementsByClassName('weight')`
