@@ -1,0 +1,13 @@
+body {
+    width: 1000px; display: grid; margin: 0 auto; text-align: center;
+    grid-template-areas: 
+    'h1 h1'
+    'p p'
+    'ul ul';
+    grid-template-rows: repeat(2,1fr) 3fr;
+}
+h1 {grid-area:h1; font-size: 2rem;}
+p {grid-area:p;}
+ul {grid-area:ul;}
+ul li {grid-area:li;}
+ul li span {grid-area:span;}
